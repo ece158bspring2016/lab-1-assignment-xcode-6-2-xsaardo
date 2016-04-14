@@ -13,6 +13,8 @@
 		FC4A46611CC014ED002BBE4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A46601CC014ED002BBE4B /* Images.xcassets */; };
 		FC4A46641CC014ED002BBE4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A46621CC014ED002BBE4B /* LaunchScreen.xib */; };
 		FC4A46701CC014ED002BBE4B /* lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A466F1CC014ED002BBE4B /* lab1Tests.swift */; };
+		FCA568431CC034C300D6119E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA568421CC034C300D6119E /* PlayerViewController.swift */; };
+		FCA568451CC0354700D6119E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA568441CC0354700D6119E /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FC4A46691CC014ED002BBE4B /* lab1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A466E1CC014ED002BBE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4A466F1CC014ED002BBE4B /* lab1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab1Tests.swift; sourceTree = "<group>"; };
+		FCA568421CC034C300D6119E /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		FCA568441CC0354700D6119E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				FC4A46591CC014ED002BBE4B /* AppDelegate.swift */,
 				FC4A465B1CC014ED002BBE4B /* ViewController.swift */,
 				FC4A465D1CC014ED002BBE4B /* Main.storyboard */,
+				FCA568441CC0354700D6119E /* Player.swift */,
+				FCA568421CC034C300D6119E /* PlayerViewController.swift */,
 				FC4A46601CC014ED002BBE4B /* Images.xcassets */,
 				FC4A46621CC014ED002BBE4B /* LaunchScreen.xib */,
 				FC4A46571CC014ED002BBE4B /* Supporting Files */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA568451CC0354700D6119E /* Player.swift in Sources */,
 				FC4A465C1CC014ED002BBE4B /* ViewController.swift in Sources */,
 				FC4A465A1CC014ED002BBE4B /* AppDelegate.swift in Sources */,
+				FCA568431CC034C300D6119E /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +349,7 @@
 				INFOPLIST_FILE = lab1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +360,7 @@
 				INFOPLIST_FILE = lab1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +417,7 @@
 				FC4A46751CC014ED002BBE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC4A46761CC014ED002BBE4B /* Build configuration list for PBXNativeTarget "lab1Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +426,7 @@
 				FC4A46781CC014ED002BBE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
